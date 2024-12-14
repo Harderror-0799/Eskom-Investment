@@ -1,0 +1,1845 @@
+body {
+    background: #F4F4F4;
+}
+.common_body{
+    background:#F4F4F4;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block
+}
+.header{
+    background: linear-gradient( 133deg, #004B6E 0%, #0397C9 99%);
+    border-radius: 0px 0px 0px 0px;
+    height: 30px;
+    line-height: 30px;
+    padding: 15px;
+}
+.mail_main{
+    margin:30px 15px ;
+}
+.mail_main .mail_card{
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.mail_main .mail_card p{
+
+    font-family: Arial, Arial;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.mail_main .mail_card .mail_title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #14142B;
+    margin-bottom: 15px;
+}
+.mail_main  .mail_date{
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    text-align: left;
+}
+.mail_main .mail_card .mail_contents{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+.help_header{
+    background-image: url("/public/site_aj/img/user/help_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    height: 200px;
+}
+.help_header .title{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 200px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 28px;
+    color: #35506F;
+    line-height: 22px;
+}
+.help_header .describe{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 200px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+    line-height: 22px;
+}
+.help_card{
+    margin: 20px;
+    padding: 15px 20px;
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+}
+.help_card .help_flex{
+    display: flex;
+    justify-content: left;
+}
+.help_card .help_flex .logo{
+    padding-right: 10px;
+}
+.help_card .help_flex .logo img{
+    width: 60px;height: 60px;
+}
+.help_card .help_flex .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #D6E4FF;
+    line-height: 22px;
+}
+.help_card .help_flex .describe{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D6E4FF;
+    line-height: 22px;
+}
+.vip_main{
+    margin: 15px;
+    background: #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.vip_main .vip_card {
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    border-bottom: 1px solid #F3F3F3;
+    padding: 15px;
+}
+.vip_main .vip_card .vip_image{
+    height: 25px;
+    width: 30px;
+}
+.vip_main .vip_card .vip_image img {
+    margin-left: 10px;
+    height: 25px;
+    width: 30px;
+}
+
+
+.vip_main .vip_card .vip_contents {
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+
+
+    line-height: 18px;
+}
+
+.layui-layer-page {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, .3);
+}
+.layui-layer-page .content{
+    padding: 20px;
+}
+.layui-layer-page  .content .title{
+
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2A415C;
+    line-height: 23px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 10px;
+
+}
+.layui-layer-page .content .flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+}
+.layui-layer-page .content .flex .logo{
+   height: 100px;
+    width: 100px;
+
+}
+.layui-layer-page .content .flex .logo img{
+    padding: 10px;
+    width: 80px;
+    height: auto;
+}
+.layui-layer-page .content .flex .app_name{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2A415C;
+    line-height: 23px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 8px;
+}
+.layui-layer-page .content .flex .app_description{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #818393;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.common_header{
+    background: #C8D7FF;
+    height: 200px;
+    position: relative;
+    width: 100%;
+    border: none;
+}
+.common_main_position{
+    position: relative;
+    top:-140px;
+}
+.common_header_order{
+
+}
+.common_header .back{
+    /*display: block;*/
+    /*width: 100%;*/
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000F73;
+    text-align: center;
+    padding: 20px;
+    line-height: 32px;
+
+}
+.common_header .back .btn{
+    text-align: center;
+
+    color: #000F73;
+    background: #ffffff;
+    border-radius: 30px;
+
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+
+
+}
+.common_header .back .service{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #2250A8;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3060B9;
+}
+.common_header .back .service img{
+     width: 19px;
+     height: 19px;
+}
+.index_header{
+    position: relative;
+    padding: 15px;
+    padding-bottom: 0px;
+
+}
+
+.common_main{
+    overflow: hidden;
+    background: #F4F4F4;
+    border-radius: 20px 20px 0px 0px;
+    margin: 15px;
+}
+.common_bg{
+    background: #ffffff;
+    border-radius: 16px 16px 0px 0px;=
+    padding: 15px;
+}
+.index_header .index_logo{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.index_logo .welcome{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.index_logo .welcome_desc{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A2F3D9;
+    line-height: 24px;
+}
+.balance .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+}
+.balance .value{
+    margin-top: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 13px;
+    color: #0F7A5A;
+}
+
+.index_header .index_menu {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: auto;
+}
+.index_header .index_menu img{
+    height: 50px;
+    width: 50px;
+}
+.index_header .index_menu .menu-title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #474747;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.index_banner{
+    height: 190px;
+    background-image: url("/public/site_aj/img/index/banner_bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 15px 24px;
+    margin-top: 15px;
+}
+.index_banner .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+.index_banner .label{
+     font-family: Arial, Arial;
+     font-weight: 400;
+     font-size: 15px;
+     color: #80A8F4;
+     line-height: 17px;
+     margin-top: 17px;
+    margin-bottom: 6px;
+}
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+.flex_left{
+    display: flex;
+    justify-content: left;
+}
+.wallet_btn{
+    height: 30px;
+    line-height: 30px;
+    width:100px;
+    background: #17A278;
+    border-radius: 8px 8px 8px 8px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.wallet_btn img{ display: inline-block;height: 20px;}
+.nav{
+    background-image: url("/public/site_aj/img/product/nav.png");
+    background-size:  100%;
+    background-repeat: no-repeat;
+    height: 40px;
+    line-height: 40px;
+}
+.nav_active{
+    background-image: url("/public/site_aj/img/product/nav_active.png");
+    background-size:  100%;
+    background-repeat: no-repeat;
+   text-align: center;
+    margin: auto;
+}
+.nav .title{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    line-height: 40px;
+}
+.nav_active .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+.reward_right_card{
+    background: #FBF3F1;
+    border-radius: 4px 4px 4px 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.reward_right_card .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #373737;
+    line-height: 13px;
+}
+.reward_right_card .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 11px;
+    color: #818393;
+    line-height: 13px;
+}
+.reward_right_card .value{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0F7A5A;
+    line-height: 20px;
+}
+.reward_right_card .invite_btn{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #396ED1;
+    border-radius: 100px 100px 100px 100px;
+    cursor: pointer;
+}
+.reward_card .copy_link_btn{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #396AC7;
+}
+.reward_card .qr_code_btn{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #23AF66;
+    border-bottom: 1px solid #80D8AA;
+}
+.reward_card .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    line-height: 22px;
+    display: flex;
+    justify-content:space-between ;
+}
+.reward_card .content{
+    margin-top: 25px;
+    width: 100%;
+}
+.reward_card .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #373737;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+.reward_card .desc{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+
+.position{
+    position: relative;
+}
+.unit{
+    position: absolute;top: -6px;
+    left: -12px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #A8B4C2;
+
+}
+.index_main {
+    position: relative;
+    margin:15px;
+    margin-bottom: 60px;
+}
+
+.index_main .product_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 18px;
+    color: #242424;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.index_main .product_type{
+    margin-bottom: 20px;
+}
+.index_main .product_type_item{
+    width: 30%;
+    background: #2452AC;
+    border-radius: 100px;
+    border: 1px solid #3565C2;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 8px;
+    text-align: center;
+}
+.index_main .product_type_item_active{
+    width: 30%;
+    background: #6298FF;
+    border-radius: 100px;
+    border: 1px solid #93B8FF;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 8px;
+    text-align: center;
+}
+.index_main .invite{
+    padding: 10px;
+}
+.index_main .invite .invite_banner{
+    position:relative;
+    top: -30px;
+    width: 100%;
+}
+.index_main .invite .invite_banner img{
+    width: 100%;
+
+}
+.index_main .prompt{
+    position:relative;
+    top: -20px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_main .commission{
+   margin-bottom: 20px;
+}
+.index_main .commission .flex{
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+}
+.index_main .commission .flex .left img{
+    height: 35px; width: 35px;
+}
+.index_main .commission .flex .right{
+    padding-left: 10px;
+}
+.index_main .commission .flex .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0E0E0E;
+    line-height: 21px;
+    text-align: left;
+}
+.index_main .commission .flex .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #818393;
+    line-height: 17px;
+    text-align: left;
+}
+.index_main .link_btn{
+    margin: 20px 0;
+}
+.index_main .link{
+    padding: 0 10px;
+}
+.index_main .link p{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B9BDD9;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.index_main .link .my_link{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+
+}
+.index_main .reward{
+    padding: 10px;
+}
+
+.index_main .reward .title{
+    border-left: 4px #EBD8A3 solid;
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2A415C;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_main .flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    border-radius: 15px 15px 15px 15px;
+}
+.index_main .balance{
+    padding: 20px;
+    background: #FFFFFf;
+}
+
+.index_main .reward .flex{
+    background: #FBFBFF;
+}
+.index_main .reward .flex .left{
+    background: #FBFBFF;
+}
+.index_main .reward .flex .left img{
+    width: 88px;
+    height: 88px;
+}
+.index_main .reward .flex .right{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.index_main .reward .flex .right .title{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+    line-height: 18px;
+}
+.copyright{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ABB4BC;
+    line-height: 16px;
+    text-align: center;
+    margin: 15px 0;
+}
+.none_data{
+    text-align: center;margin: auto;padding: 30px 20px;padding-bottom: 60px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+}
+.none_image{
+    width: 107px;height: auto;
+}
+.none_text{
+    margin-top: 15px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ADACAC;
+    line-height: 21px;
+    text-align: center;
+}
+.card{
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 20px;
+}
+.product_header{
+    position: relative;
+    padding: 40px 20px 0 20px; ;
+    height: 135px;
+    background-image: url("/public/site_aj/img/order/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 175px;
+}
+.product_header .header_content{
+    display: flex;
+    justify-content: space-between;
+}
+.product_header .header_content .service img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.product_header .index_logo{
+    width: 200px;
+    height: auto;
+}
+.product_header .index_logo img{
+    width: 100%;
+    height: auto;
+}
+.product_main{
+    position:relative;
+    top: -20px;
+    display: flex;
+    justify-content: left;
+}
+.product_main .left_content{
+    width: 120px;
+}
+.product_main .left_content .card{
+    width: 90px;
+    padding: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+    margin-bottom: 8px;
+    border-radius: 0px 10px 10px 0px;
+    background: #CFD0D9;
+}
+.product_main .left_content .card img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 7px;
+}
+.product_main .left_content .card_active{
+    background: linear-gradient( 135deg, #004B6E 0%, #0295C7 100%);
+    border-radius: 0px 10px 10px 0px;
+    color: #FFFFFF;
+}
+.product_main .left_content .card_order{
+    display: block;
+    margin-top: 60px;
+    background: #383838;
+    border-radius: 0px 10px 10px 0px;
+    color: #FFFFFF;
+}
+
+.product_main .right_content {
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 60px;
+}
+
+.product_card{
+    height: 100%;
+    background: none;
+    padding: 0;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+
+}
+.product_card .buy{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background: linear-gradient( 270deg, #2CB38A 0%, #1BC475 100%);
+    border-radius: 100px 100px 100px 100px;
+    text-align: center;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.product_card .level{
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width: 35px;
+     height: 20px;
+     background: linear-gradient( 270deg, #FFD685 0%, #F5E08F 100%);
+     border-radius: 8px 0px 8px 0px;
+     text-align: center;
+     z-index: 999;
+}
+.product_card .level img{
+    width: 13px;
+}
+.product_card .product_content{
+    text-align: center;
+}
+.product_card .product_content .product_image{
+    height: 362px;
+    width: 30%;
+    border-radius: 8px;
+    background-size: 362px 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.product_card .product_content .product_image img{
+    height: 170px;
+    width: 120px;
+}
+.product_card .product_content  .product_info{
+
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.05);
+    border-radius: 4px;
+    padding: 15px;
+    z-index: 99999;
+    margin: 10px;
+}
+.product_card .product_content  .product_name{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #373737;
+    line-height: 24px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.product_card .product_content  .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.product_card .product_content  .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D6E4FF;
+}
+.product_card .product_content  .price{
+    color: #14142B;
+    font-size: 18px;
+    line-height: 20px;
+}
+.product_card .product_item{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.product_card .product_item .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #818393;
+    line-height: 28px;
+}
+.product_card .product_item .value{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0F7A5A;
+    line-height: 14px;
+    margin-top: 8px;
+    padding-left: 0px;
+}
+
+.product_details_main{
+    margin: 15px;
+
+}
+.product_details_card{
+    position: relative;
+    display: block;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.product_details_card .lianjie{
+    width: 4px;height: 40px;
+}
+.product_details_card .lianjie_left{
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.product_details_card .lianjie_right{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+}
+.common_card .lianjie{
+    width: 4px;height: 40px;
+}
+.common_card .lianjie_left{
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.common_card .lianjie_right{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+}
+.product_details_card .product_details_item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #F3F3F3;
+
+}
+.product_details_card .product_details_order{
+    border-bottom: 1px solid #EAEAEA;
+}
+.product_details_card .buy_btn{
+    background: #000F73;
+    border-radius: 100px 100px 100px 100px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.layui-slider {
+    height: 5px;
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+.layui-slider-wrap-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#FFFFFF;
+    border: none;
+}
+.product_details_card .product_details_name{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #666666;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.product_details_card .product_details_item .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #506680;
+    line-height: 28px;
+    margin-bottom: 6px;
+}
+.product_details_card .product_details_item .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #14142B;
+    line-height: 21px;
+    text-align: left;
+}
+.product_details_card .product_details_item .price {
+    font-family: Arial, Arial;
+    font-weight: normal;
+    font-size: 22px;
+    color: #000F73;
+    line-height: 31px;
+}
+/*.product_details_card .product_details_item .unit {*/
+/*    position: relative;*/
+/*    top: -10px;*/
+/*    font-family: Arial, Arial;*/
+/*    font-weight: 700;*/
+/*    font-size: 14px;*/
+/*    color: #CFD0D9;*/
+/*    line-height: 16px;*/
+/*}*/
+.footer_menu{
+    position: fixed;
+    z-index:9999;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /*height: 80px;*/
+    background:none;
+    /*box-shadow: 0px 4px 10px 0px rgba(42,65,92,0.3);*/
+    /*border: 1px solid #ACC8FD;*/
+    border-radius: 120px 120px 0  0;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_menu .content{
+    background: #ffffff;
+    box-shadow: 0px 10px 20px 5px rgba(40,14,13,0.3);
+    display: flex;
+    width: 100%;
+    color: #B1B3B8;
+    /*margin-right: 10px;*/
+    padding-right: 15px;
+}
+.footer_menu .content a{
+    color: #B1B3B8 !important;
+    font-weight: 400;
+}
+.footer_menu .content .item{
+    padding: 10px 5px;
+
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+}
+.footer_menu .content .item img{
+    width: 21px;
+    height: 21px;
+}
+.footer_menu .content .item p{
+    margin-top: 4px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B1B3B8;
+    height: 20px;
+    line-height: 20px;
+}
+.footer_menu .content  .active{
+    text-align: center;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A7C9F1;
+}
+.footer_menu .content  .active P{
+
+    color: #000F73;
+}
+
+#service{
+    /*display: none;*/
+    position: fixed;
+    z-index:9999;
+    bottom: 200px;
+    right: 0px;
+
+    text-align: center;
+}
+
+
+.login_body{
+    height: 100%;
+    background: #EDF2FF;
+    border-radius: 16px;
+}
+.login_body .login_bg{
+    padding: 10px;
+   padding-bottom: 420px;
+   background: linear-gradient( 140deg, rgba(34,49,149,0.9) 2%, rgba(166,177,255,0.0196) 68%, rgba(216,216,216,0) 100%);
+
+}
+.login_body .main{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 0;
+    margin-top: 60px;
+}
+
+.login_body .logo {
+    text-align: left;
+    width: 100%;
+}
+.login_body .logo img{
+    width: 100%;
+    height: 18px;
+}
+.login_body .logo .footer_order{
+    background: #3364C1;
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid #ACC8FD;
+    border-radius: 160%;
+    filter: blur(1px);
+
+}
+.login_body .main .login_form{
+
+
+}
+.login_body .main .login_form .form_tab{
+   display: flex;
+   justify-content: right;
+   background: none;
+   border-radius: 30px 30px 0px 0px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+
+ .login_input_box{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 2px solid #E4E4E4;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.login_body .main .login_form .form_tab .left{
+    width: 50%;
+    height: 60px;
+    background:none;
+    color: #666666;
+    border-radius: 30px 30px 0px 0px;
+}
+.login_body .main .login_form .form_tab .right{
+    width: 50%;
+    height: 60px;
+    background: none;
+    color: #FFFFFF!important;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.login_body .main .login_form .form_container{
+    background: none;
+    padding-top: 40px;
+    border-radius: 0px 30px 30px 30px;
+    padding: 15px;
+}
+.login_body .main .login_form .form_container .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B1B3B8;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+.layui-form-item{
+    background: #F1F9FF;
+    border-radius: 6px 6px 6px 6px;
+    border: none;
+    /*margin-bottom: 20px;*/
+    height: 45px;
+}
+.login_body .main .login_form .form_container .layui-form-item{
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 0px;
+    height: 45px;
+
+}
+.login_body .main .login_form .form_container .layui-form-label{
+    width: 50px;
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3D3D3D;
+    margin-top: 10px;
+    height: 25px;
+    padding: 0px;
+    line-height: 25px;
+    border-right:  2px solid #D4D4D4;;
+
+}
+.login_body .main .login_form .form_container .layui-input-block{
+    margin-left: 50px;
+    height: 45px;
+    line-height: 45px;
+}
+.login_body .main .login_form .form_container .layui-input-wrap{
+    border-radius: 6px;
+}
+.login_body .main .login_form .form_container .layui-input-wrap .layui-input,.layui-input-affix {
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C !important;
+}
+.login_body .main .login_form .form_container .layui-input-wrap .layui-input,.layui-input-affix {
+
+
+    height: 45px !important;
+    line-height: 45px !important;
+}
+.login_btn{
+    margin-bottom: 20px;
+    background: linear-gradient( 270deg, #00458B 0%, #0460BC 100%);
+    box-shadow: 0px 4px 10px 0px rgba(36,165,144,0.3);
+    border-radius: 6px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+.register_btn{
+    background: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid #F26722;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #F26722;
+}
+.border_noe{
+    border: none;
+}
+
+.user_header{
+    position: relative;
+    background: #2B5CB9;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3769C7;
+    height: 130px;
+    margin:26px 42px;
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    z-index: 9999999;
+}
+.user-header .user_info{
+    padding-top: 0px;
+    z-index: 9999999;
+}
+.user_info .balance{
+    text-align: center;
+    margin-top: 15px;
+    z-index: 9999999;
+}
+.user_info .balance .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #96BAF3;
+    line-height: 15px;
+}
+.user_info .balance .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFE11C;
+    margin-bottom: 10px;
+}
+.user_contents{
+    display: flex;
+    justify-content: space-between;
+    border: 1px #000000;
+    z-index: 9999999;
+}
+.user_contents .info {
+    display: flex;
+    justify-content: left;
+    color: #FFFFFF;
+}
+.user_contents .info img {
+    width: 50px;
+    height: 50px;
+}
+.user_contents .info a {
+    font-weight:700 ;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.user_contents .username {
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.user_main{
+    background-image: url("/public/site_aj/img/user/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    position: relative;
+    top: -15px;
+    z-index: 111;
+}
+.user_main .index_menu {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: auto;
+}
+.user_main .index_menu img{
+    height: 40px;
+    width: 40px;
+}
+.user_main .index_menu .menu-title{
+    margin-top: 6px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+    text-align: center;
+}
+.user_main .nav{
+    background-image: url("/public/site_aj/img/common/nav.png");
+    background-size:  100% 110px;
+    background-repeat: no-repeat;
+    height: 110px;
+    padding-top: 5px;
+}
+.user_main .nav_active{
+    background-image: url("/public/site_aj/img/common/active_nav.png");
+    background-size:  100% 110px;
+    background-repeat: no-repeat;
+    height: 110px;
+    padding-top: 5px;
+}
+.user_main .nav .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #97BBFF;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.user_main .nav .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFE11C;
+    line-height: 16px;
+}
+
+
+.user_main .balance{
+    padding: 20px;
+}
+
+
+.user_main .balance .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 15px;
+
+}
+.user_main .balance .flex .item{
+    width: 50%;
+}
+.user_main .balance .flex .item .value{
+    color: #35506F;
+}
+
+.user_main .menu{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+.user_main .menu .menu_card{
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    height: 40px;
+}
+.user_main .menu .menu_card .item{
+   padding-left: 5px;
+}
+.user_main .menu .menu_card .item .value{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AF8923;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.user_main .menu .menu_card .item .label{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #004B6E;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+.user_main .menu .menu_card img{
+    width: 24px;
+    height: 24px;
+}
+
+.user_main .user_list {
+    margin-top: 15px;
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #3769C7;
+}
+.user_main .user_card{
+    margin: 0 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #3669C8;
+}
+.user_main .user_card .item{
+    display: flex;
+    justify-content: space-between;
+
+}
+.user_main .user_card .item .title{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #97BBFF;
+    line-height: 18px;
+}
+.user_main .user_card .item img{
+    width: 32px;
+    height: 32px;
+}
+.user_main .user_card .item .right_icon{
+    color: #CCCCCC;
+    line-height: 32px;
+    font-weight: bold;
+}
+.logout{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #97BBFF;
+    line-height: 21px;
+}
+.logout img{
+    height: 18px;
+    width: 18px;
+}
+.team_header{
+    background-image: url("/public/site_aj/img/team/header_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 160px;
+}
+.team_header .back{
+    display: block;
+    width: 100%;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #D6E4FF;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 36px;
+}
+.team_header .back .btn{
+    width: 36px;
+    height: 36px;
+    background: #2250A8;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3060B9;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+
+.team_header .label{
+    margin-top: 20px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BAD5FF;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.team_header .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEDD4D;
+    line-height: 28px;
+    text-align: center;
+}
+.team_main {
+    padding: 0 15px;
+    margin-bottom: 200px;
+}
+.team_card{
+    margin-top: 25px;
+    background: #ffffff;
+    height: 166px;
+    padding: 0 17px;
+    border-radius: 16px;
+}
+.team_card .title{
+    text-align: center;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 19px;
+    color: #0F7A5A;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.team_card .left {
+    width: 100px !important;
+    height: 100px !important;
+    background: #3A6BC7;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #497CDE;
+    text-align: center;
+
+}
+.team_card .left .level_icon{
+    margin-top: 5px;
+    width: 44px;
+    height: 44px;
+}
+
+.team_card .left .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 11px;
+    color: #9EBDF9;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.team_card .left .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEDD4D;
+    line-height: 28px;
+    text-align: center;
+    width: 100px;
+}
+.team_card .right{
+    width: 100%;
+    /*padding-left: 10px;*/
+}
+.team_card .right .item{
+    width: 100%;
+   margin-bottom: 15px;
+}
+.team_card .right .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #0F7A5A;
+    line-height: 22px;
+}
+.team_card .right .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #EBF2FF;
+    line-height: 18px;
+    padding-left: 12px;
+}
+.withdrwa_record{
+    display: block;
+    width: 130px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 100px 100px 100px 100px;
+    border: 1px solid #117BE5;
+    line-height: 32px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #117BE5;
+
+    text-align: center;
+}
+.common_input{
+    height: 45px;
+    background: #F1F9FF;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #E4E4E4;
+}
+.common_label{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 16px;
+    color: #B1B3B8;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.common_btn{
+    background: #000F73;
+    box-shadow: 0px 4px 10px 0px rgba(0,62,126,0.15);
+    border-radius: 4px 4px 4px 4px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.common_card{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.common_card .common_card_content{
+    background: #FFFFFF;
+    border-radius: 16px 16px 16px 16px;
+}
+
+.common_explain{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A415C;
+    line-height: 18px;
+}
+.common_content{
+     margin-top: 15px;
+     font-family: Arial, Arial;
+     font-weight: 400;
+     font-size: 14px;
+     color: #2A415C;
+     line-height: 22px;
+}
+.common_content p{
+    margin-bottom: 15px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #3D3D3D;
+    line-height: 20px;
+}
+
+.dialog{
+    /*background: rgba(255,255,255,0.2);*/
+    /*filter:alpha(opacity=.1);*/
+    /*border-radius: 16px;*/
+    /*border: 2px solid rgba(255,255,255,0.5);*/
+    background: #ffffff;
+    z-index: 100;
+    top: 10px;
+    border-radius: 16px;
+}
+.download_dialog {
+    background-image: url("/public/site/img/download/dialog_bg.png");
+    background-repeat: no-repeat;
+    background-size: 300px 536px;
+    width: 300px;
+    height: 536px;
+}
+.dialog .dialog_contents{
+    padding: 16px;
+    background-color: #FFFFFf;
+    border-radius: 16px 16px 16px 16px;
+    z-index: 300;
+
+    /*margin: 15px;*/
+}
+.dialog .logo{
+
+    width: auto;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+}
+.dialog .logo img{
+    width: auto; height: 60px;
+    /*border-radius: 50%;*/
+}
+.dialog .title{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3D3D3D;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.dialog .item{
+   display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+.dialog .item .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+}
+.dialog .item .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #666666;
+    line-height: 21px;
+}
+.dialog .explain{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    color: #000F73;
+    margin-bottom: 20px;
+}
+
+.dialog .text{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 22px;
+}
+
+.dialog .btn_group{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog .cancel{
+    width: 105px;
+    height: 40px;
+    background: #BBBBBB;
+    border-radius: 100px 100px 100px 100px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.dialog .confirm{
+    width: 160px;
+    height: 36px;
+    background: #000F73;
+    box-shadow: 0px 4px 10px 0px rgba(2,104,206,0.15);
+    border-radius: 100px 100px 100px 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F0F5FF;
+}
+
+.layui-layer-setwin {
+    position: absolute;
+    right: unset;
+    top: unset;
+    bottom: -50px;
+    left: 50%;
+}
+
+.layui-layer-page{ background: none !important;}
+
+.product_menu {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: auto;
+}
+.product_menu .nav{
+    width: 85px;
+    height: 36px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 100px 100px 100px 100px;
+    text-align: center;
+    margin: auto;
+}
+.product_menu .nav_active{
+
+}
+.product_menu img{
+   height: 24px;
+    width: 24px;
+}
+.product_menu .nav .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #5C67AF;
+    line-height: 20px;
+    text-align: center;
+
+}
+.product_menu .nav_active .title{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000F73;
+    text-align: center;
+    line-height: 20px;
+}
+.product_title{
+    margin-top: 20px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3D3D3D;
+    line-height: 16px;
+}
+.product_desc{
+    margin-top: 10px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+
